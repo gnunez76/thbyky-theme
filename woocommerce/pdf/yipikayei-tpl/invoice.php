@@ -35,7 +35,6 @@
 			<?php if ( isset($this->settings['display_phone']) ) { ?>
 			<div class="billing-phone"><?php $this->billing_phone(); ?></div>
 			<?php } ?>
-            <div><?php _e( 'VAT ID:', 'woocommerce-pdf-invoices-packing-slips' ); ?> <?php $this->custom_field('NIF'); ?></div>
 		</td>
 		<td class="address shipping-address">
 			<?php if ( isset($this->settings['display_shipping_address']) && $this->ships_to_different_address()) { ?>
