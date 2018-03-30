@@ -28,3 +28,9 @@ function custom_image_quality( $quality ) {
     return 70;
 
 }
+
+
+wp_dequeue_script( 'lolfmk-google-maps-api' );
+wp_deregister_script( 'lolfmk-google-maps-api' );
+wp_dequeue_script( 'lolfmk-google-maps' );
+wp_deregister_script( 'lolfmk-google-maps' );
