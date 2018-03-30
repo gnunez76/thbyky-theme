@@ -30,7 +30,10 @@ function custom_image_quality( $quality ) {
 }
 
 
-wp_dequeue_script( 'lolfmk-google-maps-api' );
-wp_deregister_script( 'lolfmk-google-maps-api' );
-wp_dequeue_script( 'lolfmk-google-maps' );
-wp_deregister_script( 'lolfmk-google-maps' );
+add_action('wp_enqueue_scripts', function () {
+
+    wp_dequeue_script( 'lolfmk-google-maps-api' );
+    wp_deregister_script( 'lolfmk-google-maps-api' );
+    wp_dequeue_script( 'lolfmk-google-maps' );
+    wp_deregister_script( 'lolfmk-google-maps' );
+});
