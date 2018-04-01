@@ -18,6 +18,7 @@ require_once __DIR__ . '/lib/Metabox/meta-box-conditional-logic/meta-box-conditi
 require_once __DIR__ . '/lib/Metabox/mb-settings-page/mb-settings-page.php';
 
 require_once __DIR__ . '/src/nifField.php';
+require_once __DIR__ . '/src/statics.php';
 
 $timber = new \Timber\Timber();
 
