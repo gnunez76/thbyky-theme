@@ -19,6 +19,7 @@ require_once __DIR__ . '/lib/Metabox/mb-settings-page/mb-settings-page.php';
 
 require_once __DIR__ . '/src/nifField.php';
 require_once __DIR__ . '/src/statics.php';
+require_once __DIR__ . '/src/htmlblock.php';
 
 $timber = new \Timber\Timber();
 
