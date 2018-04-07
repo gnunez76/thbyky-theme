@@ -50,6 +50,7 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
     <!-- END WP -->
 </head>
 <body <?php body_class();?>>
+<base target="_parent">
 
 <?php
 if (get_option('lol_check_preloader') == 'true') :
