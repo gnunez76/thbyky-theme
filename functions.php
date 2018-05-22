@@ -42,7 +42,7 @@ add_action('wp_enqueue_scripts', function () {
 
 
 function wooc_add_field_to_registration(){
-    wc_get_template( 'checkout/terms.php' );
+    wc_get_template( 'checkout/termsRegisterOnly.php' );
 }
 add_action( 'woocommerce_register_form', 'wooc_add_field_to_registration' );
 
